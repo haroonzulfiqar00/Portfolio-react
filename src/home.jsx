@@ -77,7 +77,7 @@ const Home = () => {
 
             <div className='bio-data'>
               <div className='portfolio-dp'>
-              <img src="./public/portfolio-dp.svg" alt="" />
+              <img src="/portfolio-dp.svg" alt="" />
               </div>
 
               <div className='' id='main-sec'>
