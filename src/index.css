@@ -1,0 +1,373 @@
+*{
+  background-color:#0b0036;
+  color: #fff;
+}
+
+/* ////........Navbar.......//// */
+.logo-img{
+  width: 40%;
+}
+.navbar {
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+}
+.menu-items {
+  display: flex;
+}
+.menu-items li {
+  list-style: none;
+  padding: 1rem;
+}
+.menu-items a {
+  text-decoration: none;
+  color: #f0f0e6;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+.menu-items a:hover {
+  border-bottom: 2px solid #46b976;
+}
+.navbar .logo {
+  order: 1;
+  color: #f0f0e6;
+  font-size: 2rem;
+}
+
+
+
+footer{
+  box-shadow: 0px -2px 2px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+footer .menu-items a{
+  font-size: 15px !important;
+}
+
+
+
+
+.form_style{
+  border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+}
+
+
+.customform{
+  --bg-light: #efefef;
+  --bg-dark: #707070;
+  --clr: #58BC82;
+  --clr-alpha: #9c9c9c60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.customform label{
+  color: #58BC82;
+}
+.customform input{
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+.customform input:active{
+  outline: 2px solid #46b976;
+}
+.customform input:focus{
+  outline: 2px solid #46b976;
+}
+.customform textarea{
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+.customform textarea:active{
+  background-color: #707070;
+  color: #fff;
+}
+.customform button{
+  font-size: 16px;
+  margin: 12px 0;
+  padding: 0.7em 2.3em;
+  cursor: pointer;
+  transform: perspective(200px) rotateX(15deg);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    0deg,
+    #46b976 0%,
+    #47b977 100%
+  );
+  box-shadow: rgba(63, 251, 119, 0.2) 0px 40px 29px 0px;
+  will-change: transform;
+  transition: all 0.3s;
+  border-bottom: 2px solid #58BC82;
+}
+.customform button:hover{
+  transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+.customform button:active{
+  transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
+.form-control-custom input{
+  color: #fff;
+  font-size: 0.9rem;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  padding-inline: 0.5em;
+  padding-block: 0.7em;
+  border: none;
+  border-bottom: var(--border-height) solid var(--border-before-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-control-custom .input-border {
+  position: absolute;
+  background: var(--border-after-color);
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.form-control-custom .input:focus {
+  outline: none;
+}
+
+.form-control-custom .input:focus + .input-border {
+  width: 100%;
+}
+
+.form-control-custom {
+  position: relative;
+  width: 100%;
+}
+
+.form-control-custom .input-alt {
+    padding: 1rem 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--clr-alpha);
+}
+
+.form-control-custom .input-border-alt {
+  height: 3px;
+  background: linear-gradient(90deg, #FF6464 0%, #FFBF59 50%, #47C9FF 100%);
+  transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1.00);
+}
+
+.form-control-custom .input-alt:focus + .input-border-alt {
+  width: 100%;
+}
+
+.bio-data{
+  display: flex;
+
+}
+.nerdy-pen{
+  padding: 0 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.nerdy-pen span{
+  font-size: 25px;
+}
+.nerdy-pen__text{
+  font-size: 4rem;
+}
+.nerdy-pen__text span{
+  color: #46b976;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.nerdy-pen p {
+  font-size: 18px;
+}
+
+.btn-global {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #46b976;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-global::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #0b0036;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.btn-global::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #0b0036;
+  transition: 0.5s;
+}
+
+.btn-global:hover::before, button:hover::after {
+  transform: scale(0)
+}
+
+.btn-global:hover {
+  box-shadow: inset 0px 0px 25px #46b976;
+}
+.logo-btns{
+  position: fixed;
+}
+.logo-btns a img{
+  background-color: #46b976;
+  border-radius: 50%;
+}
+.logo-btns a img:hover{
+  background-color: #ffff;
+  transition: 0.3s;
+}
+.logo-btns a img:active{
+  background-color: #ffff;
+}
+.logo-btns a img:focus{
+  background-color: #ffff;
+}
+
+.personal-info{
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.personal-info span{
+  font-weight: 100;
+}
+
+#about-me{
+  height: 100vh;
+}
+
+.aboutme-heading{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+.aboutme-heading span{
+  color: #46b976;
+}
+
+
+/* -----------------skills percentage----------------- */
+#skills{
+  height: 100vh;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #fff;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+/* -----------------skills percentage----------------- */
