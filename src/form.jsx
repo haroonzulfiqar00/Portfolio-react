@@ -45,12 +45,12 @@ const Form = () => {
             <div>
               <form className='customform' autoComplete='off' ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input type="text" placeholder="Your Name" name="user_name" />
+                <input type="text" placeholder="Your Name" name="user_name" required />
                 <label>Email</label>
-                <input type="email" placeholder="Your Email" name="user_email" />
+                <input type="email" placeholder="Your Email" name="user_email" required />
                 <label>Message</label>
                 <div className="form-control-custom">
-                  <input className="input input-alt" name="message" placeholder="Type something intelligent" required="" type="text" />
+                  <input className="input input-alt" name="message" placeholder="Type something intelligent" type="text" />
                   <span className="input-border input-border-alt"></span>
                 </div>
                 <button type="submit" value="Send">Submit</button>
