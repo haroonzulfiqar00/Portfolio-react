@@ -95,14 +95,25 @@ const Home = () => {
           <div className="col-lg-2">
             <div className='h-100 d-flex justify-content-end align-items-center'>
               <div className='d-flex flex-column gap-4 logo-btns' id='side-bar'>
-                <a href="#main-sec"><img src="portfolio-home.png" alt="" /></a>
-                <a href="#about-me"><img src="portfolio-about.png" alt="" /></a>
-                <a href="#skills"><img src="portfolio-skills.png" alt="" /></a>
-                <a href="#"><img src="portfolio-Experience.png" alt="" /></a>
-                <a href="#form-here"><img src="portfolio-contact-me.png" alt="" /></a>
+                <a href="#main-sec" data-bs-toggle="tooltip" data-bs-placement="left" title="Home">
+                  <img src="portfolio-home.png" alt="" />
+                </a>
+                <a href="#about-me" data-bs-toggle="tooltip" data-bs-placement="left" title="About Me">
+                  <img src="portfolio-about.png" alt="" />
+                </a>
+                <a href="#skills" data-bs-toggle="tooltip" data-bs-placement="left" title="Skills">
+                  <img src="portfolio-skills.png" alt="" />
+                </a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Experience">
+                  <img src="portfolio-Experience.png" alt="" />
+                </a>
+                <a href="#form-here" data-bs-toggle="tooltip" data-bs-placement="left" title="Contact Me">
+                  <img src="portfolio-contact-me.png" alt="" />
+                </a>
               </div>
             </div>
           </div>
+
 
         </div>
       </div>
