@@ -4,8 +4,9 @@ const Info = () => {
   return (
     <div className="row m-0" id='about-me'>
         <h2 className='aboutme-heading'>ABOUT <span>ME</span></h2>
-        <div className="col-lg-4">
-             <h3 className='py-3 ps-4 ms-4'>PERSONAL INFOS</h3>
+
+        <div className="col-lg-5 mx-lg-5 p-lg-5">
+             <h3 className=''>PERSONAL INFOS</h3>
             <div className='personal-info'>
                 <div>
                     <p>First Name: <span>Haroon</span></p>
@@ -61,7 +62,7 @@ const Info = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-2"></div>
+        {/* <div className="col-lg-2"></div> */}
     </div>
   )
 }

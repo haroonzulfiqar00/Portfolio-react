@@ -32,7 +32,7 @@ const Form = () => {
 
   return (
     <div className="col-lg-12" id='form-here'>
-      <div className="row p-5 w-100">
+      <div className="row p-lg-5 w-100">
         <div className="col-lg-6">
           <div className="frm-btn">
             <button className='btn-global' onClick={toggleForm}>
