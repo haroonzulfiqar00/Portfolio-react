@@ -25,8 +25,8 @@ const Header = () => {
             </button>
             <ul className={`menu-items ${menuOpen ? 'active' : ''}`}>
               <li><a href="#main-sec">Home</a></li>
-              <li><a href="#skills">Skills</a></li>
               <li><a href="#about-me">About</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li><a href="#form-here">Contact</a></li>
             </ul>
           </div>

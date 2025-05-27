@@ -384,11 +384,11 @@ footer .menu-items a{
   background-color: #ffff;
 }
 
-.personal-info{
+/* .personal-info{
   display: flex;
   justify-content: space-around;
   font-weight: 600;
-}
+} */
 .personal-info span{
   font-weight: 100;
 }
@@ -407,8 +407,9 @@ footer .menu-items a{
   color: #46b976;
 } */
 #about-me {
-  padding: 50px 0;
-  min-height: 100vh;
+    padding: 50px 0;
+    width: 100% !important;
+    margin: 0 auto;
 }
 
 .aboutme-heading {
@@ -423,9 +424,11 @@ footer .menu-items a{
 }
 
 .personal-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 45px;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .personal-info p {

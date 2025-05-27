@@ -160,6 +160,7 @@ const Skills = () => {
                     <h2>ReactJs</h2>
                 </div>
         </div>
+        <hr />
         </div>
             
     

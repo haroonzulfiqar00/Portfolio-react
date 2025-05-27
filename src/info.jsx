@@ -1,30 +1,37 @@
 import React from 'react';
+// import coding from './images/coding-boy-8.png';
 
 const Info = () => {
   return (
-    <div className="row m-0" id='about-me'>
+    <div className="container-fluid m-0" id='about-me'>
         <h2 className='aboutme-heading'>ABOUT <span>ME</span></h2>
 
-        <div className="col-lg-5 mx-lg-5 p-lg-5">
+        <div className="p-lg-5 m-lg-5 m-3">
              <h3 className=''>PERSONAL INFOS</h3>
             <div className='personal-info'>
-                <div>
-                    <p>First Name: <span>Haroon</span></p>
-                    <p>Age: <span>27 years</span></p>
-                    <p>Freelaunce: <span>Available</span></p>
-                    <p>Phone: <span>+923455641907</span></p>
-                    <p>Skype: <span>none</span></p>
+                <div className='d-flex justify-content-between align-items-center gap-5'>
+                    <div>
+                        <p>First Name: <span>Haroon</span></p>
+                        <p>Age: <span>27 years</span></p>
+                        <p>Freelaunce: <span>Available</span></p>
+                        <p>Phone: <span>+923455641907</span></p>
+                        <p>Skype: <span>none</span></p>
+                    </div>
+                    <div>
+                        <p>Last Name: <span>Zulfiqar</span></p>
+                        <p>Nationalilty: <span>Pakistani</span></p>
+                        <p>Address: <span>Islamabad</span></p>
+                        <p>Email: <span>wise.guyy99@gmail.com</span></p>
+                        <p>Languages: <span>English, Urdu, Punjabi</span></p>
+                    </div>
                 </div>
                 <div>
-                    <p>Last Name: <span>Zulfiqar</span></p>
-                    <p>Nationalilty: <span>Pakistani</span></p>
-                    <p>Address: <span>Islamabad</span></p>
-                    <p>Email: <span>wise.guyy99@gmail.com</span></p>
-                    <p>Languages: <span>English, Urdu, Punjabi</span></p>
+                    <img src="./coding-boy1-8.png" alt="" />
                 </div>
             </div>
         </div>
-        <div className="col-lg-6">
+
+        <div className="p-lg-5">
             <div>
                 <div className='d-flex'>
                     <div class="card text-bg-success m-3 w-50">
@@ -62,6 +69,7 @@ const Info = () => {
                 </div>
             </div>
         </div>
+        <hr />
         {/* <div className="col-lg-2"></div> */}
     </div>
   )
