@@ -14,14 +14,15 @@ const Info = () => {
                         <p>First Name: <span>Haroon</span></p>
                         <p>Age: <span>27 years</span></p>
                         <p>Freelaunce: <span>Available</span></p>
-                        <p>Phone: <span>+923455641907</span></p>
-                        <p>Skype: <span>none</span></p>
+                        <p>Phone: <a href="tel:+923455641907"><span> +92 345 5641907</span></a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/haroon-zulfiqar/" target="_blank" rel="noopener noreferrer"> <span> https://www.linkedin.com/in/haroon-zulfiqar/ </span></a></p>
+
                     </div>
                     <div>
                         <p>Last Name: <span>Zulfiqar</span></p>
                         <p>Nationalilty: <span>Pakistani</span></p>
                         <p>Address: <span>Islamabad</span></p>
-                        <p>Email: <span>wise.guyy99@gmail.com</span></p>
+                        <p>Email: <a href="mailto:wise.guyy99@gmail.com"><span> wise.guyy99@gmail.com </span> </a></p>
                         <p>Languages: <span>English, Urdu, Punjabi</span></p>
                     </div>
                 </div>
