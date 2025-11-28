@@ -9,7 +9,7 @@ const Info = () => {
         <div className="p-lg-5 m-lg-5 m-3">
              <h3 className=''>PERSONAL INFOS</h3>
             <div className='personal-info'>
-                <div className='d-flex justify-content-between align-items-center gap-5'>
+                <div className='align-items-center d-flex flex-wrap gap-5 justify-content-between'>
                     <div>
                         <p>First Name: <span>Haroon</span></p>
                         <p>Age: <span>27 years</span></p>
